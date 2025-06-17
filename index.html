@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semesta Elyzarion</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #0b0c1a;
+      color: #e0dede;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #431f55, #2d2a4a);
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #f9f6ff;
+    }
+    nav {
+      background-color: #1e1d2b;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #bbaaff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1611605698335-85296b82d74a') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .about, .novel, .prolog, .komik, .animasi, .karakter {
+      border-top: 2px solid #3a3050;
+    }
+    .about { background-color: #14131f; }
+    .novel { background-color: #0e0d1c; }
+    .prolog { background-color: #15131d; }
+    .komik, .animasi { background-color: #120f1e; text-align: center; }
+    .karakter { background-color: #18161f; }
+
+    .karakter h2 { color: #e0d9ff; text-align: center; }
+
+    .karakter-card {
+      background-color: #241f35;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      border-radius: 10px;
+      border: 1px solid #3c3254;
+    }
+    .karakter-card h3 {
+      margin-top: 0;
+      color: #d0c4ff;
+    }
+    .karakter-card p {
+      margin: 5px 0;
+    }
+    .karakter-card .gambar-placeholder {
+      width: 100%;
+      height: 200px;
+      background-color: #2e2940;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    .novel h2, .prolog h2, .komik h2, .animasi h2 {
+      color: #d5caff;
+    }
+    .novel button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #7e57c2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .komik img {
+      max-width: 90%;
+      height: auto;
+      margin-top: 20px;
+      border: 2px solid #3a3050;
+      border-radius: 10px;
+    }
+    .animasi video {
+      width: 90%;
+      max-width: 720px;
+      border: 2px solid #4d3a66;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Semesta Elyzarion</h1>
+  </header>
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#novel">Novel</a>
+    <a href="#prolog">Prolog</a>
+    <a href="#komik">Komik</a>
+    <a href="#animasi">Animasi</a>
+    <a href="#karakter">Karakter</a>
+  </nav>
+  <section class="hero" id="beranda">
+    Selamat datang di dunia Elyzarion...
+  </section>
+  <section class="about" id="tentang">
+    <h2>Tentang Semesta Elyzarion</h2>
+    <p>
+      Elyzarion adalah semesta megah yang lahir dari resonansi suara pertama dalam kehampaan. Dalam dunia ini, dewa-dewa, makhluk purba, dan para penjaga takdir hidup berdampingan dalam konflik abadi antara cahaya dan bayangan.
+    </p>
+    <p>
+      Cerita berfokus pada dua anak agung dari pasangan Averion dan Serynthia, yaitu Lyserion dan Dirafhael, yang memegang kunci untuk menyelamatkan atau menghancurkan keseimbangan semesta.
+    </p>
+  </section>
+  <section class="novel" id="novel">
+    <h2>Light and Darkness</h2>
+    <blockquote><em>"Ketika Cahaya dan Bayangan lahir dari satu sumber... takdir semesta berubah selamanya."</em></blockquote>
+    <p>
+      Setelah Perang Para Dewa mengguncang seluruh realitas, Elyzharion — entitas tertinggi — menciptakan dua makhluk luar biasa dari dirinya sendiri: Lyserion dan Dirafhael. Mereka bukan bagian dari takdir... mereka adalah pengubah takdir.
+    </p>
+    <p>
+      Namun dari bayang-bayang kekacauan, sang sisi gelap Elyzharion — Malrakh — mulai bergerak. Dua anak ini adalah harapan terakhir... atau mungkin, awal dari kehancuran yang lebih dalam.
+    </p>
+    <button onclick="location.href='#prolog'">Baca Sekarang</button>
+  </section>
+  <section class="prolog" id="prolog">
+    <h2>Prolog</h2>
+    <p>[Masukkan teks prolog novelmu di sini]</p>
+  </section>
+  <section class="komik" id="komik">
+    <h2>Komik Light and Darkness</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Comic_sample.svg/1280px-Comic_sample.svg.png" alt="Sampul Komik Light and Darkness">
+    <p>
+      Komik adaptasi dari novel epik "Light and Darkness" karya Falderon Senja kini hadir dalam format visual. Mengisahkan kisah dua anak agung — Dirafhael dan Lyserion — dalam semesta yang terbelah antara terang dan gelap.
+    </p>
+  </section>
+  <section class="animasi" id="animasi">
+    <h2>Trailer Animasi</h2>
+    <video controls>
+      <source src="Trailer Light and Darkness.mp4" type="video/mp4">
+      Browser Anda tidak mendukung pemutar video.
+    </video>
+    <p>Saksikan cuplikan sinematik dari kisah epik "Light and Darkness".</p>
+  </section>
+  <section class="karakter" id="karakter">
+    <h2>Karakter Utama</h2>
+    <div class="karakter-card">
+      <div class="gambar-placeholder">[Gambar Dirafhael]</div>
+      <h3>Dirafhael</h3>
+      <p><strong>Julukan:</strong> Pendengar Takdir</p>
+      <p>Dirafhael adalah anak bungsu dari Averion dan Serynthia. Ia polos, penuh kasih, dan memiliki kepekaan terhadap suara dan makhluk gaib.</p>
+    </div>
+    <div class="karakter-card">
+      <div class="gambar-placeholder">[Gambar Lyserion]</div>
+      <h3>Lyserion</h3>
+      <p><strong>Julukan:</strong> Pelindung Cahaya</p>
+      <p>Lyserion adalah kakak dari Dirafhael. Berani, jenius, dan penuh tanggung jawab terhadap adiknya dan seluruh semesta.</p>
+    </div>
+    <div class="karakter-card">
+      <div class="gambar-placeholder">[Gambar Malrakh]</div>
+      <h3>Malrakh</h3>
+      <p><strong>Julukan:</strong> Bayangan Sang Maha</p>
+      <p>Malrakh adalah sisi gelap Elyzharion. Ia hidup dari kekacauan dan berniat menghancurkan tatanan realita yang ada.</p>
+    </div>
+  </section>
+</body>
+</html>
